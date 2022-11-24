@@ -8,7 +8,7 @@ metadata:
     traefik.ingress.kubernetes.io/router.entrypoints: web, websecure
 spec:
   rules:
-  - host: my-domain
+  - host: 188.121.122.95
     http:
       paths:
       - path: /
